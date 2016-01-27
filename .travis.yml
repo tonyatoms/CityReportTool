@@ -10,4 +10,4 @@ osx_image: xcode7.2
 xcode_sdk: iphonesimulator9.2
 
 script:
-- xcodebuild clean build test -project CityReportTool.xcodeproj -scheme CityReportToolTests
+xctool test -project CityReportTool.xcodeproj -scheme CityReportToolTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
