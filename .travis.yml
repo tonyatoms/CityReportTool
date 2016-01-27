@@ -9,5 +9,4 @@ xcode_scheme: CityReportToolTests
 osx_image: xcode7.2
 xcode_sdk: iphonesimulator9.2
 
-script:
-xctool test -project CityReportTool.xcodeproj -scheme CityReportToolTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script: xctool test -project CityReportTool.xcodeproj -scheme CityReportToolTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
